@@ -1,0 +1,16 @@
+:root { font-family: system-ui, sans-serif; color: #1c2430; background: #f3f5f8; }
+body { margin: 0; }
+main { max-width: 480px; margin: 0 auto; padding: 24px 16px; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 14px; }
+.card { background: #fff; border: 1px solid #d9dee6; border-radius: 8px; padding: 24px; display: grid; gap: 14px; }
+h1 { margin: 0; font-size: 22px; }
+h2 { margin: 0 0 6px; font-size: 16px; }
+ul { margin: 0; padding-left: 20px; line-height: 1.6; }
+label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
+input, textarea { font: inherit; padding: 8px 10px; border: 1px solid #b9c1cd; border-radius: 6px; }
+button { font: inherit; padding: 10px 14px; border: 0; border-radius: 6px; background: #1f5eff; color: #fff; cursor: pointer; }
+button.secondary { background: #e6eaf1; color: #1c2430; }
+button:disabled { opacity: .6; cursor: wait; }
+:focus-visible { outline: 2px solid #1f5eff; outline-offset: 2px; }
+.msg { margin: 0; color: #b3261e; font-size: 14px; }
+.switch { margin: 0; font-size: 14px; }
